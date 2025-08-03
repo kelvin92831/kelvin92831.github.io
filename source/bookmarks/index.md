@@ -1,6 +1,7 @@
 ---
 title: Bookmarks
 date: 2025-08-03 12:30:00
+type: bookmarks
 ---
 
 # 書籤收藏
