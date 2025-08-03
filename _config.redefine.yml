@@ -27,9 +27,9 @@ defaults:
   # Favicon
   favicon: /images/redefine-favicon.svg
   # Site logo
-  logo: 
+  logo: /images/kelvin-logo.jpg
   # Site avatar
-  avatar: /images/redefine-avatar.svg
+  avatar: /images/kelvin-avatar.jpg
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -43,6 +43,33 @@ colors:
   # Default theme mode initial value (will be overwritten by prefer-color-scheme)
   default_mode: light # light, dark
 # COLORS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
+
+
+# NAVIGATION BAR >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
+# Docs: https://redefine-docs.ohevan.com/basic/navigation
+navbar:
+  # Navbar links
+  links:
+    Home: 
+      path: /
+      icon: fa-regular fa-house
+    Gallery: 
+      path: /gallery
+      icon: fa-regular fa-images
+    Comments: 
+      path: /comments
+      icon: fa-regular fa-comments
+    Bookmarks: 
+      path: /bookmarks
+      icon: fa-regular fa-bookmark
+    About: 
+      path: /about
+      icon: fa-regular fa-user
+  # Navbar search
+  search:
+    enable: true
+    preload: true
+# NAVIGATION BAR <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
 # HOME BANNER >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
@@ -92,24 +119,57 @@ home:
   # Sidebar settings
   sidebar:
     enable: true # Whether to enable sidebar
-    position: right # Sidebar position. left, right
+    position: left # Sidebar position. left, right
     first_item: menu # First item in sidebar. menu, info
     announcement: # Announcement text
     show_on_mobile: true # Whether to show sidebar navigation on mobile sheet menu
     links:
-      Archives: 
-        path: /archives 
-        icon: fa-regular fa-archive
-      Tags: 
-        path: /tags 
-        icon: fa-regular fa-tags
-      Categories: 
-        path: /categories 
-        icon: fa-regular fa-folder
-      About: 
-        path: /about 
-        icon: fa-regular fa-user
+      Gallery: 
+        path: /gallery 
+        icon: fa-regular fa-images
+      Comments: 
+        path: /comments 
+        icon: fa-regular fa-comments
+      Bookmarks: 
+        path: /bookmarks 
+        icon: fa-regular fa-bookmark
 # HOME PAGE ARTICLE SETTINGS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
+
+
+# BOOKMARKS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
+# Docs: https://redefine-docs.ohevan.com/pages/bookmarks
+bookmarks:
+  - category: 技術工具
+    icon: fa-code
+    items:
+      - name: VS Code
+        link: https://code.visualstudio.com/
+        image: https://code.visualstudio.com/assets/images/code-stable.png
+        description: 強大的程式碼編輯器
+      - name: GitHub
+        link: https://github.com/
+        image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+        description: 程式碼託管平台
+      - name: Stack Overflow
+        link: https://stackoverflow.com/
+        image: https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png
+        description: 程式設計問答網站
+  - category: 學習資源
+    icon: fa-graduation-cap
+    items:
+      - name: MDN Web Docs
+        link: https://developer.mozilla.org/
+        image: https://developer.mozilla.org/apple-touch-icon.png
+        description: Web 開發文檔
+      - name: W3Schools
+        link: https://www.w3schools.com/
+        image: https://www.w3schools.com/favicon.ico
+        description: 線上學習平台
+      - name: freeCodeCamp
+        link: https://www.freecodecamp.org/
+        image: https://www.freecodecamp.org/news/content/images/2020/10/fcc_primary_large_24X210.svg
+        description: 免費程式設計課程
+# BOOKMARKS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
 # SITE CUSTOMIZATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
@@ -174,31 +234,7 @@ global:
 # SITE CUSTOMIZATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
-# NAVIGATION BAR >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
-# Docs: https://redefine-docs.ohevan.com/basic/navigation
-navbar:
-  # Navbar links
-  links:
-    Home: 
-      path: /
-      icon: fa-regular fa-house
-    Archives: 
-      path: /archives
-      icon: fa-regular fa-archive
-    Categories: 
-      path: /categories
-      icon: fa-regular fa-folder
-    Tags: 
-      path: /tags
-      icon: fa-regular fa-tags
-    About: 
-      path: /about
-      icon: fa-regular fa-user
-  # Navbar search
-  search:
-    enable: true
-    preload: true
-# NAVIGATION BAR <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
+
 
 
 
