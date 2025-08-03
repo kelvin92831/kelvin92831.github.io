@@ -98,6 +98,14 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: redefine
 
+# Search
+## Docs: https://github.com/theme-next/hexo-generator-searchdb
+search:
+  path: search.xml
+  field: post
+  content_length: 400
+  lang: en
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
