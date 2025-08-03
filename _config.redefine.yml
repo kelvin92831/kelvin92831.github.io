@@ -127,8 +127,8 @@ home:
       Gallery: 
         path: /gallery 
         icon: fa-regular fa-images
-      Comments: 
-        path: /comments 
+      說說話: 
+        path: /shuoshuo 
         icon: fa-regular fa-comments
       Bookmarks: 
         path: /bookmarks 
@@ -139,6 +139,25 @@ home:
 # BOOKMARKS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 # Docs: https://redefine-docs.ohevan.com/pages/bookmarks
 bookmarks:
+  - category: Newsletters
+    icon: fa-newspaper
+    items:
+      - name: Medium
+        link: https://medium.com/
+        image: https://medium.com/favicon.ico
+        description: A platform for writers and readers to share ideas and perspectives. Features both free and premium content with a strong tech and startup focus.
+      - name: Substack
+        link: https://substack.com/
+        image: https://substack.com/favicon.ico
+        description: Popular newsletter platform that lets writers monetize their content through paid subscriptions. Great for independent journalists and creators.
+      - name: Ghost
+        link: https://ghost.org/
+        image: https://ghost.org/favicon.ico
+        description: Open-source publishing platform designed for professional publishers, bloggers, and newsletter creators. Offers both hosted and self-hosted options.
+      - name: Mailchimp
+        link: https://mailchimp.com/
+        image: https://mailchimp.com/favicon.ico
+        description: All-in-one marketing platform with powerful newsletter features. Perfect for businesses looking to grow their email subscriber base.
   - category: 技術工具
     icon: fa-code
     items:
@@ -154,22 +173,52 @@ bookmarks:
         link: https://stackoverflow.com/
         image: https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png
         description: 程式設計問答網站
-  - category: 學習資源
-    icon: fa-graduation-cap
+  - category: Chat AI
+    icon: fa-robot
     items:
-      - name: MDN Web Docs
-        link: https://developer.mozilla.org/
-        image: https://developer.mozilla.org/apple-touch-icon.png
-        description: Web 開發文檔
-      - name: W3Schools
-        link: https://www.w3schools.com/
-        image: https://www.w3schools.com/favicon.ico
-        description: 線上學習平台
-      - name: freeCodeCamp
-        link: https://www.freecodecamp.org/
-        image: https://www.freecodecamp.org/news/content/images/2020/10/fcc_primary_large_24X210.svg
-        description: 免費程式設計課程
+      - name: ChatGPT
+        link: https://chat.openai.com/
+        image: https://chat.openai.com/favicon.ico
+        description: An AI language model that can assist with a variety of tasks, including writing, brainstorming, and answering questions.
+      - name: Claude
+        link: https://claude.ai/
+        image: https://claude.ai/favicon.ico
+        description: An AI language model that can assist with a variety of tasks, including writing, brainstorming, and answering questions.
+      - name: Gemini
+        link: https://gemini.google.com/
+        image: https://gemini.google.com/favicon.ico
+        description: Google's AI language model that can assist with a variety of tasks, including writing, brainstorming, and answering questions.
+  - category: PaaS
+    icon: fa-cloud
+    items:
+      - name: Vercel
+        link: https://vercel.com/
+        image: https://vercel.com/favicon.ico
+        description: Vercel is a platform for deploying and scaling web applications. It provides a seamless development experience with features like automatic HTTPS, global CDN, and serverless functions.
+      - name: Cloudflare
+        link: https://cloudflare.com/
+        image: https://cloudflare.com/favicon.ico
+        description: Cloudflare is a cloud computing company that offers a range of services, including web security, content delivery, and analytics.
+      - name: Netlify
+        link: https://netlify.com/
+        image: https://netlify.com/favicon.ico
+        description: Netlify is a cloud computing company that offers a range of services, including web security, content delivery, and analytics.
 # BOOKMARKS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
+
+
+# ESSAYS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
+# Docs: https://redefine-docs.ohevan.com/pages/essays
+essays:
+  - date: 2025-08-03 12:30:00
+    content: |
+      今天完成了部落格的設置，感覺很有成就感！把日常編譯成光，把思緒寫進雲端。
+  - date: 2025-08-03 12:25:00
+    content: |
+      開始學習新的技術，希望能在這個部落格記錄下學習的點點滴滴。
+  - date: 2025-08-03 12:20:00
+    content: |
+      **第一次發文**，感覺很興奮！期待在這裡與大家分享更多想法。
+# ESSAYS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
 # SITE CUSTOMIZATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
