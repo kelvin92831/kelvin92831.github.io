@@ -13,7 +13,7 @@ info:
   # Site title
   title: Kelvin's Blog
   # Site subtitle
-  subtitle: 分享技術與生活
+  subtitle: 程式碼之外的小宇宙
   # Author name
   author: Kelvin
   # Site URL
@@ -155,7 +155,7 @@ sidebar:
       enable: true
       avatar: /images/redefine-avatar.svg
       name: Kelvin
-      description: 分享技術與生活
+      description: 程式碼之外的小宇宙
       social_links:
         github: https://github.com/kelvin92831
         email: mailto:your-email@example.com
