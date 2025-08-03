@@ -107,38 +107,31 @@ global:
 # SITE CUSTOMIZATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
-# NAVIGATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
+# NAVIGATION BAR >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 # Docs: https://redefine-docs.ohevan.com/basic/navigation
-navigation:
-  # Navigation bar
-  navbar:
-    # Whether to enable navigation bar
+navbar:
+  # Navbar links
+  links:
+    Home: 
+      path: /
+      icon: fa-regular fa-house
+    Archives: 
+      path: /archives
+      icon: fa-regular fa-archive
+    Categories: 
+      path: /categories
+      icon: fa-regular fa-folder
+    Tags: 
+      path: /tags
+      icon: fa-regular fa-tags
+    About: 
+      path: /about
+      icon: fa-regular fa-user
+  # Navbar search
+  search:
     enable: true
-    # Navigation bar items
-    menu:
-      Home: /
-      Archives: /archives/
-      Categories: /categories/
-      Tags: /tags/
-      About: /about/
-    # Whether to enable search
-    search:
-      enable: true
-      path: /search/
-      icon: fas fa-search
-    # Whether to enable theme mode toggle
-    theme_mode:
-      enable: true
-      icon: fas fa-moon
-    # Whether to enable language switch
-    language_switch:
-      enable: false
-      icon: fas fa-globe
-    # Whether to enable sidebar toggle
-    sidebar_toggle:
-      enable: true
-      icon: fas fa-bars
-# NAVIGATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
+    preload: true
+# NAVIGATION BAR <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
 # SIDEBAR >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
@@ -203,7 +196,7 @@ footer:
     # Copyright
     copyright:
       enable: true
-      text: "© 2024 Kelvin. All rights reserved."
+      text: "© 2025 Kelvin. All rights reserved."
     # Powered by
     powered_by:
       enable: true
