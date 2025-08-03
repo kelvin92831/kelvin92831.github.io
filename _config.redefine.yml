@@ -53,15 +53,15 @@ navbar:
     Home: 
       path: /
       icon: fa-regular fa-house
-    Gallery: 
-      path: /gallery
-      icon: fa-regular fa-images
-    Comments: 
-      path: /comments
-      icon: fa-regular fa-comments
-    Bookmarks: 
-      path: /bookmarks
-      icon: fa-regular fa-bookmark
+    Archives: 
+      path: /archives
+      icon: fa-regular fa-archive
+    Categories: 
+      path: /categories
+      icon: fa-regular fa-folder
+    Tags: 
+      path: /tags
+      icon: fa-regular fa-tags
     About: 
       path: /about
       icon: fa-regular fa-user
