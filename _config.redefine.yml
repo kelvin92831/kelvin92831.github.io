@@ -238,6 +238,37 @@ essays:
 # ESSAYS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
+# MASONRY >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
+# Docs: https://redefine-docs.ohevan.com/pages/masonry
+masonry:
+  - image: /images/masonry/dog1.JPG
+    title: 狗勾
+    description: 汪！
+  - image: /images/masonry/dog2.JPG
+    title: 狗勾
+    description: 汪！
+  - image: /images/masonry/dog3.JPG
+    title: 狗勾
+    description: 汪！
+  - image: /images/masonry/dog4.JPG
+    title: 狗勾
+    description: 汪！
+  - image: /images/masonry/dog5.JPG
+    title: 狗勾
+    description: 汪！
+  - image: /images/masonry/dog6.JPG
+    title: 狗勾
+    description: 汪！
+  - image: /images/masonry/dog7.JPG
+    title: 狗勾
+    description: 汪！
+  - image: /images/masonry/dog8.JPG
+    title: 狗勾
+    description: 汪！
+
+# MASONRY <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
+
+
 # SITE CUSTOMIZATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 # Docs: https://redefine-docs.ohevan.com/basic/global
 global:
