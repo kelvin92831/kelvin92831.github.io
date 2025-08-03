@@ -191,6 +191,10 @@ sidebar:
 footer:
   # Whether to enable footer
   enable: true
+  # Show website running time
+  runtime: true
+  # The start time of the website, format: YYYY/MM/DD HH:mm:ss
+  start: 2025/08/03 12:00:00
   # Footer content
   content:
     # Copyright
