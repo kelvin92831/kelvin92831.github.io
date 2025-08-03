@@ -110,6 +110,23 @@ home_banner:
     subtitle_size: 1.5rem
     # Line height between title and subtitle
     line_height: 1.2
+  # Home banner social links
+  social_links:
+    # Whether to enable
+    enable: true
+    # Social links style
+    style: center # default, reverse, center
+    # Social links
+    links:
+      github: https://github.com/kelvin92831
+      instagram: https://www.instagram.com/ckh_0831/profilecard/?igsh=anM2ZTYweTQ2ZWtn
+      linkedin: https://www.linkedin.com/in/楷寰-陳-b011292b4
+      # email: your-email@example.com
+      # ...... # you can add more
+    # Social links with QRcode drawers
+    qrs:
+      # weixin:  # your Wechat QRcode image URL
+      # ...... # you can add more
 # HOME BANNER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -209,15 +226,15 @@ bookmarks:
 # ESSAYS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 # Docs: https://redefine-docs.ohevan.com/pages/essays
 essays:
-  - date: 2025-08-03 12:30:00
+  - date: 2025-08-03 12:27:10
     content: |
-      今天完成了部落格的設置，感覺很有成就感！把日常編譯成光，把思緒寫進雲端。
-  - date: 2025-08-03 12:25:00
+      Cursor 真的牛逼，改天來玩玩 claude code
+  - date: 2025-08-03 12:25:05
     content: |
-      開始學習新的技術，希望能在這個部落格記錄下學習的點點滴滴。
-  - date: 2025-08-03 12:20:00
+      test2 test2 test2
+  - date: 2025-08-03 12:20:37
     content: |
-      **第一次發文**，感覺很興奮！期待在這裡與大家分享更多想法。
+      test test test
 # ESSAYS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -317,4 +334,20 @@ footer:
     custom:
       enable: false
       content: ""
-# FOOTER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end 
+# FOOTER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
+
+
+# INJECT >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
+# Docs: https://redefine-docs.ohevan.com/inject
+inject:
+  # Whether to enable inject
+  enable: false
+  # Inject custom head html code
+  head: 
+    -
+    -
+  # Inject custom footer html code
+  footer:
+    -
+    -
+# INJECT <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
