@@ -1,0 +1,220 @@
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
+# THEME REDEFINE CONFIGURATION FILE V2
+# BY EVANNOTFOUND
+# GITHUB: https://github.com/EvanNotFound/hexo-theme-redefine
+# DOCUMENTATION: https://redefine-docs.ohevan.com
+# DEMO: https://redefine.ohevan.com
+# <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
+
+
+# BASIC INFORMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
+# Docs: https://redefine-docs.ohevan.com/basic/info
+info:
+  # Site title
+  title: Kelvin's Blog
+  # Site subtitle
+  subtitle: 分享技術與生活
+  # Author name
+  author: Kelvin
+  # Site URL
+  url: https://kelvin92831.github.io
+# BASIC INFORMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
+
+
+# IMAGE CONFIGURATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
+# Docs: https://redefine-docs.ohevan.com/basic/defaults
+defaults:
+  # Favicon
+  favicon: /images/redefine-favicon.svg
+  # Site logo
+  logo: 
+  # Site avatar
+  avatar: /images/redefine-avatar.svg
+# IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
+
+
+# COLORS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
+# Docs: https://redefine-docs.ohevan.com/basic/colors
+colors:
+  #Primary color
+  primary: "#3B82F6"
+  # Secondary color (TBD)
+  secondary:
+  # Default theme mode initial value (will be overwritten by prefer-color-scheme)
+  default_mode: light # light, dark
+# COLORS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
+
+
+# SITE CUSTOMIZATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
+# Docs: https://redefine-docs.ohevan.com/basic/global
+global:
+  # Custom global fonts
+  fonts:
+    # Chinese fonts
+    chinese: 
+      enable: false # Whether to enable custom chinese fonts
+      family:  # Font family
+      url:  # Font URL to CSS file
+    # English fonts
+    english: 
+      enable: false # Whether to enable custom english fonts
+      family:  # Font family
+      url:  # Font URL to CSS file
+    # Custom title fonts (navbar, sidebar)
+    title:
+      enable: false # Whether to enable custom title fonts
+      family:  # Font family
+      url:  # Font URL to CSS file
+  # Content max width
+  content_max_width: 1000px
+  # Sidebar width
+  sidebar_width: 210px
+  # Effects on mouse hover
+  hover:
+    shadow: true # shadow effect
+    scale: false # scale effect
+  # Scroll progress
+  scroll_progress:
+    bar: false # progress bar
+    percentage: true # percentage
+  # Website counter
+  website_counter:
+    url: https://cn.vercount.one/js # counter API URL (no need to change)
+    enable: true # enable website counter or not
+    site_pv: true # site page view
+    site_uv: true # site unique visitor
+    post_pv: true # post page view
+  # Whether to enable single page experience (using swup). See https://swup.js.org/. similar to pjax
+  single_page: true
+  # Whether to enable Preloader.
+  preloader:
+    enable: false
+    custom_message: # Custom message. If empty, the site title will be displayed
+  # Side tools settings
+  side_tools:
+    # Whether to enable gear rotation animation for settings button
+    gear_rotation: true
+    # Whether to auto expand tools list on page load
+    auto_expand: false
+  # Whether to enable open graph
+  open_graph:
+    enable: true
+    twitter_card: true
+    twitter_id: 
+    twitter_site: 
+    facebook_admins: 
+    fb_app_id: 
+# SITE CUSTOMIZATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
+
+
+# NAVIGATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
+# Docs: https://redefine-docs.ohevan.com/basic/navigation
+navigation:
+  # Navigation bar
+  navbar:
+    # Whether to enable navigation bar
+    enable: true
+    # Navigation bar items
+    menu:
+      Home: /
+      Archives: /archives/
+      Categories: /categories/
+      Tags: /tags/
+      About: /about/
+    # Whether to enable search
+    search:
+      enable: true
+      path: /search/
+      icon: fas fa-search
+    # Whether to enable theme mode toggle
+    theme_mode:
+      enable: true
+      icon: fas fa-moon
+    # Whether to enable language switch
+    language_switch:
+      enable: false
+      icon: fas fa-globe
+    # Whether to enable sidebar toggle
+    sidebar_toggle:
+      enable: true
+      icon: fas fa-bars
+# NAVIGATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
+
+
+# SIDEBAR >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
+# Docs: https://redefine-docs.ohevan.com/basic/sidebar
+sidebar:
+  # Whether to enable sidebar
+  enable: true
+  # Sidebar position
+  position: right # left, right
+  # Sidebar items
+  items:
+    # Profile card
+    profile:
+      enable: true
+      avatar: /images/redefine-avatar.svg
+      name: Kelvin
+      description: 分享技術與生活
+      social_links:
+        github: https://github.com/kelvin92831
+        email: mailto:your-email@example.com
+    # Menu
+    menu:
+      enable: true
+      title: Menu
+      items:
+        Home: /
+        Archives: /archives/
+        Categories: /categories/
+        Tags: /tags/
+        About: /about/
+    # Categories
+    categories:
+      enable: true
+      title: Categories
+      limit: 10
+    # Tags
+    tags:
+      enable: true
+      title: Tags
+      limit: 20
+    # Recent posts
+    recent_posts:
+      enable: true
+      title: Recent Posts
+      limit: 5
+    # Archives
+    archives:
+      enable: true
+      title: Archives
+      type: monthly
+      limit: 10
+# SIDEBAR <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
+
+
+# FOOTER >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
+# Docs: https://redefine-docs.ohevan.com/basic/footer
+footer:
+  # Whether to enable footer
+  enable: true
+  # Footer content
+  content:
+    # Copyright
+    copyright:
+      enable: true
+      text: "© 2024 Kelvin. All rights reserved."
+    # Powered by
+    powered_by:
+      enable: true
+      text: "Powered by Hexo & Redefine"
+    # Theme info
+    theme_info:
+      enable: true
+      text: "Theme Redefine"
+      link: https://github.com/EvanNotFound/hexo-theme-redefine
+    # Custom content
+    custom:
+      enable: false
+      content: ""
+# FOOTER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end 
