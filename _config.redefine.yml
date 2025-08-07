@@ -27,7 +27,7 @@ defaults:
   # Favicon
   favicon: /images/redefine-favicon.svg
   # Site logo
-  logo: /images/kelvin-logo.png
+  # logo: /images/kelvin-logo.png
   # Site avatar
   avatar: /images/kelvin-avatar.jpg
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
